@@ -54,7 +54,7 @@ Express ya se encarga del direccionamiento de la api y mediante el objeto router
 <p>Con este cliente podremos seleccionar las diferentes llamadas para probar nuesto cliente, para probarlo sólo tendremos que hacer una peticion get tal que así</p>
 <img class="materialboxed center z-depth-3 " width="100%" src="http://blueberrydevelop.com/blogPersonal/images/blogapinode/insomniaRest.PNG">
 <h4>Configurando la base de datos MySQL</h4>
-<p>Ya hemos aprendido como definir una ruta get sencilla y la responsepuesta en un json.
+<p>Ya hemos aprendido como definir una ruta get sencilla y la respuesta en un json.
 Ahora nos meteremos con la base de datos, he escogido MySQL para este ejemplo, podeis usar cualquier base de datos tan sólo teneis que buscar el framework e instalarlo mediante npm, para ello con la terminal en la carpeta de nuestra aplicación ejecutaremos:</p>
 <pre class="language-bash">
 	npm install mysql
@@ -292,7 +292,7 @@ router.delete('/usuario', function(request, response) {
 module.exports = router;
 
 </pre>
-<p>Podemos ver como cogemos los datos de las diferentes llamadas a la api mediante el request, tenemos varias formas de coger datos para procesarlos, request.body, request.query y request.headers. Para poder coger los datos del body necesitaremos el package body-parser para ello con la terminal situada en la carpeta de la api ejecutaremos el siguiente comando:</p>
+<p>Podemos ver como cogemos los datos de las diferentes llamadas a la api mediante el request, tenemos varias formas de coger datos para procesarlos, request.body, request.query y request.headers. Para poder coger los datos del body necesitaremos el package body-parser, para ello con la terminal situada en la carpeta de la api ejecutaremos el siguiente comando:</p>
 <pre class="language-bash">
 	npm install body-parser
 </pre>
