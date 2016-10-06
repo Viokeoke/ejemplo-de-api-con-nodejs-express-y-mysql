@@ -2,7 +2,7 @@
 Ejemplo de cómo hacer una api con nodejs y express consumiendo datos de una base de datos MySQL
 
 <h3>Cómo hacer una api con Node.js, express y MySQL</h3>
-<img class="center " width="50%" src="http://blueberrydevelop.com/blogPersonal/images/blogapinode/nodejs.PNG">
+<img class="center " width="50%" src="http://blueberrydevelop.com/blogPersonal/images/blogapinode/nodejs.png">
 
 <p>En este tutorial explicaremos cómo hacer una api con Node.JS ayudándonos de la libreria express para hacer consultas a una base de datos MySQL. En este tutorial partiremos de la base de que tenemos instalado Node.JS y configurado correctamente el editor de paquetes npm.</p>
 <h4>Instalar express</h4>
