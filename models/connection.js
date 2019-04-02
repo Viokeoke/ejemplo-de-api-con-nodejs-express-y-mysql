@@ -1,7 +1,7 @@
 var connection={ 
-		host: 'blueberrydevelop.com', 
+		host: 'xxxx.com', 
 		user: 'root',  
-		password: 'blueberry94', 
+		password: 'xxx', 
 		database: 'test',
 };
 
